@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/onnxruntime/include",
+                "${workspaceFolder}/libtorch/include",
+                "${workspaceFolder}/eigen-3.4.0/Eigen",
+                // brew info opencv
+                "/opt/homebrew/Cellar/opencv/4.9.0_8/include/opencv4"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++20"
+        }
+    ],
+    "version": 4
+}
